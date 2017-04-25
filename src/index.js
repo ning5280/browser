@@ -1,4 +1,4 @@
-angular.module('myApp',[''])
+angular.module('myApp',[])
 .controller('select',['$scope','$http',function($scope,$http){
 	$http({
 		url:'/api/fwshop/jsonData/cateList/cateList.json',
